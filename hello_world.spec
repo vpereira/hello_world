@@ -2,7 +2,7 @@ Name:       hello_world
 Version:    1
 Release:    1
 Summary:    Most simple RPM package
-License:    FIXME
+License:    MIT
 
 %description
 This is my first RPM package, which does nothing.
@@ -24,4 +24,5 @@ install -m 755 hello_world.sh %{buildroot}/usr/bin/hello_world.sh
 /usr/bin/hello_world.sh
 
 %changelog
-# let skip this for now
+# initial commit
+# changed license
