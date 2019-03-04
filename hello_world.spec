@@ -2,7 +2,7 @@ Name:       hello_world
 Version:    1
 Release:    1
 Summary:    Most simple RPM package
-License:    FIXME
+License:    MIT
 
 %description
 This is my first RPM package, which does nothing.
