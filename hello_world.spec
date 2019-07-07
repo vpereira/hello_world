@@ -5,7 +5,7 @@ Summary:    Most simple RPM package
 License:    MIT
 
 %description
-This is my first RPM package, which does nothing. Forgot to add it
+This is my first RPM package, which does nothing. Forgot to add it. Maybe not
 
 %prep
 # we have no source, so nothing here
