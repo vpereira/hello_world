@@ -1,5 +1,5 @@
 Name:       hello_world
-Version:    3
+Version:    4
 Release:    1
 Summary:    Most simple RPM package
 License:    FIXME
