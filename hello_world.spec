@@ -2,13 +2,14 @@ Name:       hello_world
 Version:    2
 Release:    1
 Summary:    Most simple RPM package
-License:    FIXME
+License:    MIT
+Group:      Amusements/Games/3D/Other
 
 %description
 This is my first RPM package, which does nothing.
 
 %prep
-# we have no source, so nothing here. Foo Foo
+# we have no source, so nothing here. 
 
 %build
 cat > hello_world.sh <<EOF
