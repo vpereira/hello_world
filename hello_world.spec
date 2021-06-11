@@ -8,7 +8,7 @@ License:    FIXME
 This is my first RPM package, which does nothing.
 
 %prep
-# we have no source, so nothing here
+# we have no source, so nothing here. Foo Foo
 
 %build
 cat > hello_world.sh <<EOF
