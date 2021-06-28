@@ -3,6 +3,7 @@ Version:    2
 Release:    1
 Summary:    Most simple RPM package
 License:    FIXME
+BuildRequires: foo
 
 %description
 This is my first RPM package, which does nothing.
