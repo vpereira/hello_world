@@ -3,3 +3,5 @@ workflow:
     - branch_package:
         source_project: home:danidoni
         source_package: hello_world
+    - unsupported_package:
+        source_project: home:danidoni
