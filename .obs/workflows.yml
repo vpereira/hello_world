@@ -1,5 +1,5 @@
 workflow:
   steps:
     - branch_package:
-        source_project: home:scp:lorem
+        source_project: home:SCabreraPadron
         source_package: hello_world
