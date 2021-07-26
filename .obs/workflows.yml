@@ -3,5 +3,12 @@ workflow:
     - branch_package:
         source_project: home:danidoni
         source_package: hello_world
-    - unsupported_package:
-        source_project: home:danidoni
+    - configure_repositories:
+        source_project: home:Admin
+        repositories:
+          - name: openSUSE_Tumbleweed
+            target_project: openSUSE:Factory
+            target_repository: snapshot
+            architectures:
+              - x86_64
+              - i586
