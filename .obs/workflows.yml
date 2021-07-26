@@ -4,7 +4,7 @@ workflow:
         source_project: home:danidoni
         source_package: hello_world
     - configure_repositories:
-        source_project: home:Admin
+        source_project: home:danidoni
         repositories:
           - name: openSUSE_Tumbleweed
             target_project: openSUSE:Factory
