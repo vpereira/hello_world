@@ -5,5 +5,5 @@ workflow:
         source_package: hello_world
   filters:
     repositories:
-      only:
+      ignore:
         - openSUSE_Tumbleweed
