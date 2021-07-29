@@ -3,7 +3,3 @@ workflow:
     - branch_package:
         source_project: home:Admin
         source_package: hello_world
-  filters:
-    repositories:
-      ignore:
-        - openSUSE_Tumbleweed
