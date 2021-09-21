@@ -5,7 +5,7 @@ Summary:    Most simple RPM package
 License:    FIXME
 
 %description
-This is my first RPM package, which does nothing.
+This is my first RPM package, which does nothing. TEST
 
 %prep
 # we have no source, so nothing here
