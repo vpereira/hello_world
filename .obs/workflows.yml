@@ -2,5 +2,5 @@ workflow:
   steps:
     - branch_package:
         source_project: home:SCabreraPadron
-        source_package: hans
-        target_project: home:SCabreraPadron:playground
+        source_package: hello_world
+        target_project: home:SCabreraPadron
