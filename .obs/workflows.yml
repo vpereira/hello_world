@@ -1,8 +1,8 @@
 workflow:
   steps:
     - branch_package:
-        source_project: home:danidoni
+        source_project: home:Admin
         source_package: hello_world
-        target_project: home:danidoni
+        target_project: home:Admin
   filters:
     event: pull_request
