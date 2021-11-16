@@ -4,13 +4,5 @@ workflow:
         source_project: home:danidoni
         source_package: hello_world
         target_project: home:danidoni
-    - configure_repositories:
-        source_project: home:danidoni
-        repositories:
-          - name: openSUSE_Tumbleweed
-            target_project: openSUSE:Factory
-            target_repository: snapshot
-            architectures:
-              - x86_64
-              - i586
-              - ppc
+  filters:
+    event: pull_request
