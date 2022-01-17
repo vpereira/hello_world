@@ -1,8 +1,8 @@
-# workflow1:
-#  steps:
-#    - branch_package:
-#        source_project: home:Admin
-#        source_package: hello_world
+workflow1:
+  steps:
+    - branch_package:
+        source_project: home:Admin
+        source_package: hello_world
 
 # workflow2:
 #  steps:
@@ -10,8 +10,8 @@
 #        source_project: home:Admin
 #        source_package: hello
 
-rebuild-workflow:
-  steps:
-    - rebuild_package:
-        project:  home:Admin
-        package: hello_world
+# rebuild-workflow:
+#  steps:
+#    - rebuild_package:
+#        project:  home:Admin
+#        package: hello_world
