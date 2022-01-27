@@ -5,12 +5,6 @@ workflow1:
         source_package: hello_world
         target_project: home:Admin:pr
 
-# workflow2:
-#  steps:
-#    - branch_package:
-#        source_project: home:Admin
-#        source_package: hello
-
 # rebuild-workflow:
 #  steps:
 #    - rebuild_package:
