@@ -1,9 +1,15 @@
-workflow1:
+pr:
   steps:
-    - branch_package:
-        source_project: home:Admin
-        source_package: hello_world
-        target_project: home:Admin:pr
+  - link_package:
+      source_project: home:Admin
+      source_package: hello_world
+      target_project: home:Admin:link
+# workflow1:
+#  steps:
+#    - branch_package:
+#        source_project: home:Admin
+#        source_package: hello_world
+#        target_project: home:Admin:pr
 
 # rebuild-workflow:
 #  steps:
