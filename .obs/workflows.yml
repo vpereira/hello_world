@@ -6,7 +6,7 @@ pr:
         target_project: home:Admin:link
     - configure_repositories:
         project: home:Admin:link
-        repositores:
+        repositories:
           - name: openSUSE_Tumbleweed
             target_project: home:Admin
             target_repository: snapshot
