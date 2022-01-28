@@ -9,7 +9,7 @@ pr:
         repositories:
           - name: openSUSE_Tumbleweed
             target_project: home:Admin
-            target_repository: snapshot
+            target_repository: openSUSE_Tumbleweed
             architectures:
               - x86_64
   filters:
