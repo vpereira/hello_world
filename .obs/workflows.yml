@@ -15,15 +15,3 @@ pr:
               - x86_64
   filters:
     event: pull_request
-# workflow1:
-#  steps:
-#    - branch_package:
-#        source_project: home:Admin
-#        source_package: hello_world
-#        target_project: home:Admin:pr
-
-# rebuild-workflow:
-#  steps:
-#    - rebuild_package:
-#        project:  home:Admin
-#        package: hello_world
