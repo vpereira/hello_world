@@ -9,6 +9,7 @@ This is my first RPM package, which does nothing.
 
 %prep
 # we have no source, so nothing here
+TEST
 
 %build
 cat > hello_world.sh <<EOF
