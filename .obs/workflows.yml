@@ -1,6 +1,6 @@
-test_build:
+main_workflow:
   steps:
-    - branch_package
+    - branch_package:
         source_project: home:vpereirabr
         source_package: hello_world
         target_project: home:vpereirabr:PR
