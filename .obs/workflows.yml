@@ -2,17 +2,7 @@ test_build:
   steps:
     - branch_package
         source_project: home:vpereirabr
-        source_package: hello_world_multibuild 
+        source_package: hello_world
         target_project: home:vpereirabr:PR
   filters:
     event: pull_request
-rebuild_master:
-  steps:
-    - rebuild_package
-        project: home:vpereirabr
-        package: hello_world_multibuild
-  filters:
-    event: push
-    branches:
-      only:
-        - master
