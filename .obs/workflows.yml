@@ -1,27 +1,18 @@
-branch:
+test_build:
   steps:
-    - branch_package:
+    - branch_package
         source_project: home:vpereirabr
-        source_package: hello_world
+        source_package: hello_world_multibuild 
         target_project: home:vpereirabr:PR
   filters:
     event: pull_request
-
-# pr:
-#  steps:
-#    - link_package:
-#        source_project: home:Admin
-#        source_package: hello_world
-#        target_project: home:Admin:link
-#    - configure_repositories:
-#        project: home:Admin:link
-#        repositories:
-#          - name: openSUSE_Tumbleweed
-#            paths:
-#              - target_project: home:Admin
-#                target_repository: openSUSE_Tumbleweed
-#            architectures:
-#              - x86_64
-#  filters:
-#    event: pull_request
-    
+rebuild_master:
+  steps:
+    - rebuild_package
+        project: home:vpereirabr
+        package: hello_world_multibuild
+  filters:
+    event: push
+    branches:
+      only:
+        - master
