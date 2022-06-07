@@ -6,9 +6,9 @@ workflow:
         target_project: home:Admin
     - set_flags:
         flags:
-          - type: publish
+          - type: debuginfo
             status: enable
             project: home:Admin
-          - type: debuginfo
+          - type: publish
             status: enable
             project: home:Admin
