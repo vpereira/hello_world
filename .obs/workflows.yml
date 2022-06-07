@@ -12,3 +12,6 @@ workflow:
           - type: publish
             status: enable
             project: home:Admin
+    - rebuild_package:
+        project: home:Admin
+        package: hello_world
