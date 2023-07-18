@@ -1,17 +1,5 @@
 workflow:
   steps:
-    - branch_package:
-        source_project: home:Admin
-        source_package: hello_world
-        target_project: home:Admin
-    - set_flags:
-        flags:
-          - type: publish
-            status: enable
-            project: home:Admin
-          - type: debuginfo
-            status: enable
-            project: home:Admin
     - rebuild_package:
         project: home:Admin
         package: hello_world
