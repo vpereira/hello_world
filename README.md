@@ -6,4 +6,5 @@ More changes.
 And more changes.
 This change will report a broken build
 
-And this change will report a successful one
+And this change will report a successful one.
+But didn't, this one should too
