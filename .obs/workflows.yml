@@ -1,5 +1,0 @@
-workflow:
-  steps:
-    - rebuild_package:
-        project: home:Admin
-        package: hello_world
